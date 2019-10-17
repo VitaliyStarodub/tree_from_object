@@ -1,2 +1,2 @@
-# Создайте дерево из объекта
-Напишите функцию createTree, которая создаёт вложенный список ul/li из объекта.
+# Create tree from object
+Write the function, that will create a list ul/li from object
