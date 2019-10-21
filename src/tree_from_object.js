@@ -1,4 +1,4 @@
-let container = document.getElementById('container');
+const container = document.getElementById('container');
 let data = {
     "Рыбы": {
         "форель": {},
@@ -22,7 +22,8 @@ function treeToObj(container, data) {
 }
 
 function treeFromObject(obj) {
-    let ul = document.createElement('ul');
+    const ul = document.createElement('ul');
+
     for (let key in obj) {
         let li = document.createElement('li');
         li.textContent = key;
@@ -34,4 +35,3 @@ function treeFromObject(obj) {
 }
 
 treeToObj(container, data);
-
